@@ -33,6 +33,14 @@ File.open('excel.xls', 'w') do |file|
                 </ss:Cell>
             </ss:Row>
         </ss:Table>
+			<WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">			 
+				<Selected/>
+				<FreezePanes/>
+				<FrozenNoSplit/>
+				<SplitHorizontal>1</SplitHorizontal>
+				<TopRowBottomPane>1</TopRowBottomPane>	
+				<ActivePane>2</ActivePane>	
+			</WorksheetOptions> 
     </ss:Worksheet>   
 		</ss:Workbook>')
 end
