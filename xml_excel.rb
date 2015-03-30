@@ -16,6 +16,22 @@ File.open('excel.xls', 'w') do |file|
                     <ss:Data ss:Type="String">Header2</ss:Data>
                 </ss:Cell>
             </ss:Row>
+            <ss:Row>
+                <ss:Cell>
+                    <ss:Data ss:Type="String">Value 10</ss:Data>
+                </ss:Cell>
+                <ss:Cell>
+                    <ss:Data ss:Type="String">Value 20</ss:Data>
+                </ss:Cell>
+            </ss:Row>
+            <ss:Row>
+                <ss:Cell>
+                    <ss:Data ss:Type="String">Value 11</ss:Data>
+                </ss:Cell>
+                <ss:Cell>
+                    <ss:Data ss:Type="String">Value 21</ss:Data>
+                </ss:Cell>
+            </ss:Row>
         </ss:Table>
     </ss:Worksheet>   
 		</ss:Workbook>')
